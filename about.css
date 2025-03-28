@@ -1,0 +1,90 @@
+.container{
+    padding: 100px;
+    background-image: url(images/fred2.jpeg);
+    min-height: 70vh;
+    background-position: bottom center;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.alfa{
+    background-color: rgb(117, 136, 136);
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    padding: 020px;
+    margin: 8px;
+    color: #e2eae5;
+    
+}
+h4{
+    text-align: center;
+    color: #eee1e6f6;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.cta{
+     background-color: rgb(25, 25, 25);
+     color: #e2eae5;
+     margin-bottom: 19px;
+     padding-left: 50px;
+}
+.cta_title{
+    text-transform: capitalize;
+    color: #cfe175;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.cta_title_primary{
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+nav a{
+    color: #b6a7ec;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 1px;
+    touch-action: double-tap-zoom;
+}
+li{
+    font-size: 15px;
+    float: right;
+    display: inline;
+    padding: 5px 20px 0 20px;
+    
+   
+}
+a:hover{
+    color: rgb(131, 109, 109);
+    font-weight: bold;
+} 
+#showcase{
+    min-height: 300px;
+    text-align: center;
+} 
+#showcase p{
+    font-size: 15px;
+} 
+ .cont{
+    font-size: 25;
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+footer p{
+    margin: 1;
+    color: blue;
+    display: inline;
+    padding: 5px 20px 0 20px;
+ }
+ footer{
+    color: #000;
+    text-align: center;
+    flex-direction: row;
+    
+    margin: 1;
+    padding: -9px;
+ } 

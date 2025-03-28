@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+     background-color: rgb(242, 242, 194);
+     color: rgb(17, 16, 16);
+     font-family: monospace;
+     font:  sans-serif;
+     padding: 50px;
+    margin: 9;
+    box-sizing: border-box;
+ }
+ ul{
+    padding: 1px;
+    margin-top: 10;
+}
+
+div.gallery {
+    margin: 4px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 31%;
+    height: 100%;
+    
+    border-radius: 8%;
+    
+  }
+  div.gallery:hover {
+    border-bottom:1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8%;
+    align-items: center;
+    
+
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  } 
+  .img{
+    border: 1px solid #777;
+    display: flex;
+  }  
+nav a{
+    color: #b6a7ec;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 1px;
+    touch-action: double-tap-zoom;
+}
+li{
+    font-size: 15px;
+    float: right;
+    display: inline;
+    padding: 5px 20px 0 20px;
+   
+}
+
+ a:hover{
+    color: red;
+    font-weight: bold;
+}
+.para{
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
+h1{
+  width: 90%;
+ /* background-color: rgb(206, 204, 202);*/
+  text-transform: uppercase;
+  text-align: center;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+p{
+    text-align: center;
+}
+footer{
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,0 +1,80 @@
+
+@media only screen and (min-width: 400px) {
+body{
+    background-image: url(images/background3.jpeg);
+    min-height: 100vh;
+    background-position: bottom center;
+    background-size: cover;
+    font-size: 15px;
+}
+}
+header{
+    background-color: azure;
+}
+h1{
+    width: 90%;
+   /* background-color: rgb(206, 204, 202);*/
+    text-transform: uppercase;
+    text-align: center;
+}
+ul{
+    padding: 4px;
+    margin: 0;
+}
+nav a{
+    color: #b6a7ec;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-top: 1px;
+    touch-action: double-tap-zoom;
+}
+li{
+    font-size: 15px;
+    float: right;
+    display: inline;
+    padding: 5px 20px 0 20px;
+   
+}
+a:hover{
+    color: red;
+    font-weight: bold;
+}
+.para{
+  text-align: center;
+  padding: 15px;
+  margin: 5px;
+}
+h1{
+  width: 90%;
+ /* background-color: rgb(206, 204, 202);*/
+  text-transform: uppercase;
+  text-align: center;
+}
+#showcase{
+    min-height: 300px;
+    text-align: center;
+} 
+#showcase p{
+    font-size: 15px;
+} 
+ .cont{
+    font-size: 25;
+    color: #000;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+footer p{
+    margin: 1;
+    color: blue;
+    display: inline;
+    padding: 5px 20px 0 20px;
+ }
+ footer{
+    color: #000;
+    text-align: center;
+    flex-direction: row;
+    
+    margin: 1;
+    padding: -9px;
+ } 
